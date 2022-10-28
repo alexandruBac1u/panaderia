@@ -17,22 +17,7 @@ header > h1,h2{
     font-weight: lighter;
 }
 
-.logo1{
-    width: 25rem;
-    height: auto;
-    padding: 0.5rem;
-    transition-property: all;
-    transition-duration: 50ms;
-}
 
-.logo2{
-    display: none;
-    width: 25rem;
-    height: auto;
-    padding: 0.5rem;
-    transition-property: all;
-    transition-duration: 50ms;
-}
 
 .fa-solid{
   font-size: 1.4rem;
@@ -60,17 +45,13 @@ section > .titulo > h1{
     display:flex;
     
 }
-button{
-    background-color: transparent;
-    border: 0;
-    transition-property: all;
-    transition-duration: 100ms;
-}
+
 .linea{
     
     display: flex;
     justify-content: center;
-    background-color: "black";
+    background-color: lightgray;
+    height: 0.1rem;
    
 }
 

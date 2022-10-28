@@ -1,0 +1,14 @@
+section{
+    background-color: red;
+    width: 100vw;
+    height: 500px;
+    margin-top: 200px;
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.tarjeta{
+    background-color: cyan;
+    width: 30%;
+    height: 45%;
+}

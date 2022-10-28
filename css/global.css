@@ -36,7 +36,7 @@ nav > img {
 
 footer{
     width: 100vw;
-    height: 200px;
+    height: 2git 00px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ footer{
 .linea1{
     background-color: white;
     height: 45%;
-    width: 0.1rem;
+    width: 1rem;
 }
 
 .compra{
@@ -101,4 +101,28 @@ footer{
 
 button:focus + .compra{
     display: block;
+}
+
+.logo1{
+    width: 25rem;
+    height: auto;
+    padding: 0.5rem;
+    transition-property: all;
+    transition-duration: 50ms;
+}
+
+.logo2{
+    display: none;
+    width: 25rem;
+    height: auto;
+    padding: 0.5rem;
+    transition-property: all;
+    transition-duration: 50ms;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    transition-property: all;
+    transition-duration: 100ms;
 }
