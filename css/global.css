@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+
+nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition-property: all;
+    transition-duration: 100ms;
+    background-color: transparent;
+    
+}
+
+.navenlacea{
+    transition-property: all;
+    transition-duration: 100ms;   
+}
+
+nav > img {
+    margin-left: 2rem;
+}nav > ul > li >a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloques{
+    width: 33%;
+    height: 55%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.bloques > h4{
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+    font-weight: 100;
+
+}
+
+.bloques > a{
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+.bloques > h3{
+  font-weight: 100;
+  font-size: 2.6em;
+  margin: 0;
+}
+
+.bloques > h5{
+    margin-top: 2.5rem;
+    font-weight: 100;
+}
+
+.redes > i{
+    font-size: 3rem;
+    padding: 0 .4em;
+}
+
+.linea1{
+    background-color: white;
+    height: 45%;
+    width: 0.1rem;
+}
+
+.compra{
+    background-color: red;
+    height: 400px;
+    width: 240px;
+    position: fixed;
+    right: 0;
+    display: none;
+}
+
+button:focus + .compra{
+    display: block;
+}
