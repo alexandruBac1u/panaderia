@@ -1,12 +1,20 @@
 body{
     margin: 0;
     padding: 0;
+    color: #483B27;
+    
 }
 ul li{
     display: inline;
     padding: 0rem 1rem;
+    transition-property: all;
+    transition-duration: 100ms;
 }
-
+ul li > i:hover{
+    color: #D5AC5B;
+    font-size: 2rem;
+    margin-top: -6px;
+}
 
 nav{
    position: fixed;
@@ -36,7 +44,7 @@ nav > img {
 
 footer{
     width: 100vw;
-    height: 2git 00px;
+    height: 300px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -87,7 +95,7 @@ footer{
 .linea1{
     background-color: white;
     height: 45%;
-    width: 1rem;
+    width: 0.1rem;
 }
 
 .compra{
@@ -125,4 +133,22 @@ button{
     border: 0;
     transition-property: all;
     transition-duration: 100ms;
+}
+button i{
+    transition-property: all;
+    transition-duration: 100ms;   
+}
+button:hover i{
+    color: #D5AC5B;
+    font-size: 2rem;
+    margin-top: -6px;
+}
+a{
+    transition-property: all;
+    transition-duration: 100ms;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #D5AC5B;
+    font-size: 1.3rem;
 }
