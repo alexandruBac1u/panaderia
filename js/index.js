@@ -5,7 +5,7 @@ const loadfn =() =>{
     const button =document.querySelector('button');
     const _a =document.getElementsByClassName('navenlacea');
     if(window.scrollY >10){
-      _nav.backgroundColor = '#101010';
+      _nav.background = 'linear-gradient(to right, #333333, #483B27)';
       _nav.boxShadow = '2px 2px 4px rgba(0,0,0,0.5)';
       _nav.color = '#ffffff';
       
@@ -18,7 +18,7 @@ const loadfn =() =>{
       };
       
     }else {
-      _nav.backgroundColor = 'transparent';
+      _nav.background = 'linear-gradient(to right, #FFFFFF, #FFFFFF)';
       _nav.boxShadow = 'none';
       _nav.color = '#000000';
       _img1[0].style.display='block';

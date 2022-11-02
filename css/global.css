@@ -45,7 +45,7 @@ nav > img {
 footer{
     width: 100vw;
     height: 300px;
-    background-color: black;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
