@@ -1,44 +1,120 @@
 section{
     background-color: transparent;
     width: 100vw;
-    height: 500px;
-    margin-top: 5rem;
-    padding: 2rem;
-    background-color: cyan;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
     border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .tarjeta{
     background-color: transparent;
-    width: 35%;
-    height: 50%;
-    margin-top: 2rem;
+    width: 30%;
+    height: 280px;
     border-radius: 2rem;
     border: 1px solid black;
-    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
 }
-
+.tarjeta h1{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.tarjeta h2{
+    font-size: 1rem;
+    margin: 0.3rem 0 0 0;
+}
 .imagen{
 width: 25rem;
 }
 
-img{
-    width: 89%;
-    margin-left: 7%;
-    margin-top: -5%;
-}
 
+.imgMargNeg{
+    width: 89%;
+    height: 100%;
+    margin-left: 7%;
+    margin-top: -5%; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
 .block1{
-    background-color: red;
+    width: 75%;
+    height: 75%;
+    border-radius: 2rem;
 }
 
 .block2{
-    background-color: yellow;
+    width: 25%;
+    height: 75%;
+    border-radius: 2rem;
 }
-.block3{
-    background-color: blue;
+.block2 > ul{
+    margin: 10% 14%;
+    padding: 0;
+}
+.block2 > ul li{
+    display:list-item;
+    padding: 1% 0;
+    font-size: 0.80rem;
 }
 
+.block3{
+    width: 75%;
+    height: 25%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
 .block4{
-    background-color: green;
+    width: 25%;
+    height: 25%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valoracion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-top: -10%;
+}
+.valoracion >h3{
+    margin: 0;
+}
+
+.AñadirCesta{
+    background-color: white;
+    color: #333333;
+    border: 1px solid #333333;
+    width: 70%;
+    height: 3rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 100;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function:ease-in-out;
+    margin-top: -30%;
+    font-size: 0.7rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.AñadirCesta:hover{
+    background-color: #483B27;
+    color: white;
+    background: linear-gradient(to right, #333333, #483B27);
+    
+}
+
+.MrgTopNeg{
+    margin-top: -2.5%;
 }
