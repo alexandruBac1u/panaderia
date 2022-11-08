@@ -4,9 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarritoCompra</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/carritocompra.css">
+    <script src="https://kit.fontawesome.com/53ea93330b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Noto+Sans+Mono&display=swap" rel="stylesheet">   
+    <title>Panaderia</title>
+    <link rel="shortcut icon" href="img/logo-no-backgroundSoloPan.png">
+    <script type="text/javascript" src="js/index.js"> </script>
 </head>
-<body>
-    
+<body onscroll="loadfn()">
+  <div class="container">
+    <nav>
+      <img src="img/logo-blackSinFondo.png" alt="Logo" class="logo1"/>
+      <img src="img/logo-whiteSinFondo.png" alt="Logo" class="logo2"/>
+      <ul>
+        <li><a href="index.html" class="navenlacea">Inicio</a></li>
+        <li><a href="productos.html" class="navenlacea">Productos</a></li>
+        <li class="selected">Pedidos especiales</li>
+        <li><button onclick="abrir_panel()"><i class="tamaño fa-solid fa-bag-shopping"></i></button> 
+          <div class="panel">
+            <div class="micarito">
+              <h2>Mi carrito</h2>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="contenido">
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-ezequiel.webp" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan ezequiel</h3>
+                  <h4>Unidades 5</h4>
+                  <div class="precio-x">
+                    <h5>2,50 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/Pan-mantou.jpg" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan mantou</h3>
+                  <h4>Unidades 2</h4>
+                  <div class="precio-x">
+                    <h5>1,40 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-espelta.jpg" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan espelta</h3>
+                  <h4>Unidades 2</h4>
+                  <div class="precio-x">
+                    <h5>1,80 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="total">
+              <div class="subtotal">
+                <h2>Subtotal</h2>
+                <h2>97,00 €</h2>
+              </div>
+              <a href="carritocompra.html"><button class="buttonTramitar">Tramitar compra</button></a>
+            </div>
+          </div></li>
+        <li><i class="tamaño fa-solid fa-user"></i></li>
+      </ul>
+    </nav> 
+    <section></section> 
+    <footer>
+      <div class="bloques">
+        <h4>Informacion</h4>
+        <a href="#">¿Quienes Somos?</a>
+        <a href="Politicas/PoliticaPrivacidad.html">Politca De privacidad</a>
+        <a href="Politicas/Politicascookies.html">Politica de cookies</a>
+        <a href="Politicas/AvisoLegal.html">Condiciones Legales</a>
+      </div>
+      <div class="linea1"></div>
+      <div class="bloques">
+        <h4>Haz tu pedido</h4>
+        <h3>612 345 678</h3>
+        <h5>Horario de lunes a viernes de 8:00 a 21:00</h5>
+      </div>
+      <div class="linea1"></div>
+      <div class="bloques">
+        <h2>Siguenos en nuestras redes sociales</h2>
+        <div class="redes">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>

@@ -36,3 +36,5 @@ const loadfn =() =>{
     const panel = document.querySelectorAll('.panel')[0].style;
     panel.display = panel.display === 'none' ? 'block' : 'none';
   };
+
+
