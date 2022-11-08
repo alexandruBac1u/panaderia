@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: #00000013;
+    width: 100vw;
+}
+
+.container{
+  width: 45vw;
+  border: 1px solid black;  
+  margin:0 25%;
+  background-color: white;
+  padding: 2rem 3rem 1rem 3rem;
+  text-align: justify;
+}
+
+.flecha{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 1rem 1rem 0;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #D5AC5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #483B27;
+}
+
+.voltear{
+    transform: rotate(180deg);   
+}
+a{
+    text-decoration: none;
+    color: #483B27;
+    transition-property: all;
+    transition-duration: 100ms;
+}
+a:hover{
+   color: #333333; 
+}

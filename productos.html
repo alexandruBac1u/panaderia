@@ -20,10 +20,78 @@
       <img src="img/logo-blackSinFondo.png" alt="Logo" class="logo1"/>
       <img src="img/logo-whiteSinFondo.png" alt="Logo" class="logo2"/>
       <ul>
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li>Pedidos especiales</li>
-        <li><button><i class="tamaño fa-solid fa-bag-shopping"></i></button> <div class="compra"></div></li>
+        <li><a href="index.html" class="navenlacea">Inicio</a></li>
+        <li class="selected">Productos</li>
+        <li><a href="#" class="navenlacea">Pedidos especiales</a></li>
+        <li><button onclick="abrir_panel()"><i class="tamaño fa-solid fa-bag-shopping"></i></button> 
+          <div class="panel">
+            <div class="micarito">
+              <h2>Mi carrito</h2>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="contenido">
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-ezequiel.webp" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan ezequiel</h3>
+                  <h4>Unidades 5</h4>
+                  <div class="precio-x">
+                    <h5>2,50 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-maiz.webp" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan ezequiel</h3>
+                  <h4>Unidades 8</h4>
+                  <div class="precio-x">
+                    <h5>0,95 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/Pan-mantou.jpg" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan mantou</h3>
+                  <h4>Unidades 2</h4>
+                  <div class="precio-x">
+                    <h5>1,40 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-espelta.jpg" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan espelta</h3>
+                  <h4>Unidades 2</h4>
+                  <div class="precio-x">
+                    <h5>1,80 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="total">
+              <div class="subtotal">
+                <h2>Subtotal</h2>
+                <h2>97,00 €</h2>
+              </div>
+              <a href="carritocompra.html"><button class="buttonTramitar">Tramitar compra</button></a>
+            </div>
+          </div>
+        </li>
        
         <li><i class="tamaño fa-solid fa-user"></i></li>
       </ul>
@@ -58,10 +126,10 @@
             <h1>Pan de<br/> trigo</h1>
             <h2>Ingredientes</h2>
             <ul>
-              <li>Ingrediente 1</li>
-              <li>Ingrediente 2</li>
-              <li>Ingrediente 3</li>
-              <li>Ingrediente 4</li>
+              <li>250 g de harina de trigo de fuerza</li>
+              <li>150 g de agua</li>
+              <li>2,5 g de levadura seca</li>
+              <li>5 g de sal</li>
             </ul>
           </div>
           <div class="block3">
@@ -80,10 +148,10 @@
           <h1>Pan de centeno</h1>
           <h2>Ingredientes</h2>
           <ul>
-            <li>Ingrediente 1</li>
-            <li>Ingrediente 2</li>
-            <li>Ingrediente 3</li>
-            <li>Ingrediente 4</li>
+            <li>3 cup de harina de centeno</li>
+            <li>1 cup de agua</li>
+            <li>½ cucharadita de levadura seca de panadería</li>
+            <li>½ cucharadita de sal marina</li>
           </ul>
         </div>
         <div class="block3">
@@ -102,15 +170,15 @@
         <h1>Pan espelta</h1>
         <h2>Ingredientes</h2>
         <ul>
-          <li>Ingrediente 1</li>
-          <li>Ingrediente 2</li>
-          <li>Ingrediente 3</li>
-          <li>Ingrediente 4</li>
+          <li>400 ml de agua</li>
+          <li>20 g de levadura fresca de panadero</li>
+          <li>10 g de sal</li>
+          <li>Aceite para untar el molde</li>
         </ul>
       </div>
       <div class="block3">
         <div class="valoracion"><h3>4.5</h3><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></div>
-        <h3 class="MrgTopNeg">Precio</h3>
+        <h3 class="MrgTopNeg">1,80 €</h3>
       </div>
       <div class="block4">
         <button class="AñadirCesta">Añadir a la cesta</button>
@@ -124,15 +192,15 @@
       <h1>Pan de maiz</h1>
       <h2>Ingredientes</h2>
       <ul>
-        <li>Ingrediente 1</li>
-        <li>Ingrediente 2</li>
-        <li>Ingrediente 3</li>
-        <li>Ingrediente 4</li>
+        <li>190 g de harina de maíz</li>
+        <li>60 g aceite de oliva</li>
+        <li>40 g miel</li>
+        <li>5 g levadura prensada de fresca</li>
       </ul>
     </div>
     <div class="block3">
       <div class="valoracion"><h3>4.5</h3><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></div>
-      <h3 class="MrgTopNeg">Precio</h3>
+      <h3 class="MrgTopNeg">0,95 €</h3>
     </div>
     <div class="block4">
       <button class="AñadirCesta">Añadir a la cesta</button>
@@ -146,15 +214,15 @@
     <h1>Pan de soja</h1>
     <h2>Ingredientes</h2>
     <ul>
-      <li>Ingrediente 1</li>
-      <li>Ingrediente 2</li>
-      <li>Ingrediente 3</li>
-      <li>Ingrediente 4</li>
+      <li>½ taza de harina de soja</li>
+      <li>1 ½ de harina de trigo integral</li>
+      <li>30 gramos de levadura</li>
+      <li>2 cucharadas de mantequilla</li>
     </ul>
   </div>
   <div class="block3">
     <div class="valoracion"><h3>4.5</h3><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></div>
-    <h3 class="MrgTopNeg">Precio</h3>
+    <h3 class="MrgTopNeg">3,20 €</h3>
   </div>
   <div class="block4">
     <button class="AñadirCesta">Añadir a la cesta</button>
@@ -168,15 +236,14 @@
     <h1>Pan Integral</h1>
     <h2>Ingredientes</h2>
     <ul>
-      <li>Ingrediente 1</li>
-      <li>Ingrediente 2</li>
-      <li>Ingrediente 3</li>
-      <li>Ingrediente 4</li>
+      <li>100 g de harina de centeno integral</li>
+      <li>100 g de agua</li>
+      <li>25 g de masa madre (o 3 g de levadura seca de panadería)</li>
     </ul>
   </div>
   <div class="block3">
     <div class="valoracion"><h3>4.5</h3><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></div>
-    <h3 class="MrgTopNeg">Precio</h3>
+    <h3 class="MrgTopNeg">1,20 €</h3>
   </div>
   <div class="block4">
     <button class="AñadirCesta">Añadir a la cesta</button>
@@ -190,15 +257,17 @@
   <h1>Pan ezequiel</h1>
   <h2>Ingredientes</h2>
   <ul>
-    <li>Ingrediente 1</li>
-    <li>Ingrediente 2</li>
-    <li>Ingrediente 3</li>
-    <li>Ingrediente 4</li>
+    <li>150g de trigo sarraceno</li>
+    <li>150g de cebada</li>
+    <li>150g de espela</li>
+    <li>150g de mijo</li>
+    <li>150g de lentejas</li>
+    <li>150g de soja</li>
   </ul>
 </div>
 <div class="block3">
   <div class="valoracion"><h3>4.5</h3><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></div>
-  <h3 class="MrgTopNeg">Precio</h3>
+  <h3 class="MrgTopNeg">2, 30 €</h3>
 </div>
 <div class="block4">
   <button class="AñadirCesta">Añadir a la cesta</button>
@@ -212,15 +281,14 @@
 <h1>Pan <br/>mantou</h1>
 <h2>Ingredientes</h2>
 <ul>
-  <li>Ingrediente 1</li>
-  <li>Ingrediente 2</li>
-  <li>Ingrediente 3</li>
-  <li>Ingrediente 4</li>
+  <li>3 tazas de harina de trigo</li>
+  <li>1 taza y 1/2 de leche o agua</li>
+  <li>1/2 cucharada de levadura seca</li>
 </ul>
 </div>
 <div class="block3">
 <div class="valoracion"><h3>4.5</h3><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></div>
-<h3 class="MrgTopNeg">Precio</h3>
+<h3 class="MrgTopNeg">1,40 €</h3>
 </div>
 <div class="block4">
 <button class="AñadirCesta">Añadir a la cesta</button>
@@ -469,33 +537,31 @@
 </div>
 </div>
     </section>
-    
-
     <footer>
-        <div class="bloques">
-          <h4>Informacion</h4>
-          <a href="">¿Quienes Somos?</a>
-          <a href="">Politca De privacidad</a>
-          <a href="">Politica de cookies</a>
-          <a href="">Condiciones Legales</a>
+      <div class="bloques">
+        <h4>Informacion</h4>
+        <a href="#">¿Quienes Somos?</a>
+        <a href="Politicas/PoliticaPrivacidad.html">Politca De privacidad</a>
+        <a href="Politicas/Politicascookies.html">Politica de cookies</a>
+        <a href="Politicas/AvisoLegal.html">Condiciones Legales</a>
+      </div>
+      <div class="linea1"></div>
+      <div class="bloques">
+        <h4>Haz tu pedido</h4>
+        <h3>612 345 678</h3>
+        <h5>Horario de lunes a viernes de 8:00 a 21:00</h5>
+      </div>
+      <div class="linea1"></div>
+      <div class="bloques">
+        <h2>Siguenos en nuestras redes sociales</h2>
+        <div class="redes">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-youtube"></i>
         </div>
-        <div class="linea1"></div>
-        <div class="bloques">
-          <h4>Haz tu pedido</h4>
-          <h3>612 345 678</h3>
-          <h5>Horario de lunes a viernes de 8:00 a 21:00</h5>
-        </div>
-        <div class="linea1"></div>
-        <div class="bloques">
-          <h2>Siguenos en nuestras redes sociales</h2>
-          <div class="redes">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-youtube"></i>
-          </div>
-        </div>
-      </footer>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

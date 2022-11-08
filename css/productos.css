@@ -2,7 +2,7 @@ section{
     background-color: transparent;
     width: 100vw;
     height: auto;
-    margin-top: 7rem;
+    margin-top: 6.3rem;
     margin-bottom: 4rem;
     border-top: 1px solid black;
     display: flex;
@@ -118,4 +118,8 @@ width: 25rem;
 
 .MrgTopNeg{
     margin-top: -2.5%;
+}
+
+.tamaño{
+    font-size: 1.3rem;
 }

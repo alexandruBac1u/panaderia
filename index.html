@@ -20,17 +20,70 @@
       <img src="img/logo-blackSinFondo.png" alt="Logo" class="logo1"/>
       <img src="img/logo-whiteSinFondo.png" alt="Logo" class="logo2"/>
       <ul>
-        <li>Inicio</li>
+        <li class="selected">Inicio</li>
         <li><a href="productos.html" class="navenlacea">Productos</a></li>
         <li><a href="#" class="navenlacea">Pedidos especiales</a></li>
-        <li><button><i class="tamaño fa-solid fa-bag-shopping"></i></button> <div class="compra"></div></li>
-       
+        <li><button onclick="abrir_panel()"><i class="tamaño fa-solid fa-bag-shopping"></i></button> 
+          <div class="panel">
+            <div class="micarito">
+              <h2>Mi carrito</h2>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="contenido">
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-ezequiel.webp" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan ezequiel</h3>
+                  <h4>Unidades 5</h4>
+                  <div class="precio-x">
+                    <h5>2,50 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/Pan-mantou.jpg" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan mantou</h3>
+                  <h4>Unidades 2</h4>
+                  <div class="precio-x">
+                    <h5>1,40 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido-cont">
+                <div class="contenido-cont-img">
+                  <img src="img/Panes/pan-espelta.jpg" alt="" class="cont-imagen">
+                </div>
+                <div class="contenido-cont-text">
+                  <h3>Pan espelta</h3>
+                  <h4>Unidades 2</h4>
+                  <div class="precio-x">
+                    <h5>1,80 €</h5>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="total">
+              <div class="subtotal">
+                <h2>Subtotal</h2>
+                <h2>97,00 €</h2>
+              </div>
+              <a href="carritocompra.html"><button class="buttonTramitar">Tramitar compra</button></a>
+            </div>
+          </div></li>
         <li><i class="tamaño fa-solid fa-user"></i></li>
       </ul>
     </nav>  
     
     <header>
-      <h1>PANADERIA <BR/>PEDRIN</h1>
+      <img src="img/logo-whiteSinFondo.png" alt="LogoCabecera"/>
       <h2>El mejor pan artesano hecho con masa madre</h2>
     </header>
     <section>
@@ -127,10 +180,10 @@
     <footer>
       <div class="bloques">
         <h4>Informacion</h4>
-        <a href="">¿Quienes Somos?</a>
-        <a href="">Politca De privacidad</a>
-        <a href="">Politica de cookies</a>
-        <a href="">Condiciones Legales</a>
+        <a href="#">¿Quienes Somos?</a>
+        <a href="Politicas/PoliticaPrivacidad.html">Politca De privacidad</a>
+        <a href="Politicas/Politicascookies.html">Politica de cookies</a>
+        <a href="Politicas/AvisoLegal.html">Condiciones Legales</a>
       </div>
       <div class="linea1"></div>
       <div class="bloques">

@@ -4,6 +4,7 @@ const loadfn =() =>{
     const _img2 =document.getElementsByClassName('logo2');
     const button =document.querySelector('button');
     const _a =document.getElementsByClassName('navenlacea');
+    const panel=document.getElementsByClassName('panel');
     if(window.scrollY >10){
       _nav.background = 'linear-gradient(to right, #333333, #483B27)';
       _nav.boxShadow = '2px 2px 4px rgba(0,0,0,0.5)';
@@ -16,7 +17,7 @@ const loadfn =() =>{
       for(let i=0; i<_a.length; i++){
         _a[i].style.color="white";
       };
-      
+      panel[0].style.color="black";
     }else {
       _nav.background = 'linear-gradient(to right, #FFFFFF, #FFFFFF)';
       _nav.boxShadow = 'none';
@@ -29,4 +30,9 @@ const loadfn =() =>{
         _a[i].style.color="black";
       };
     }
+  };
+
+  const abrir_panel = () => {
+    const panel = document.querySelectorAll('.panel')[0].style;
+    panel.display = panel.display === 'none' ? 'block' : 'none';
   };

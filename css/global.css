@@ -37,24 +37,29 @@ nav{
 
 nav > img {
     margin-left: 2rem;
-}nav > ul > li >a{
+}
+nav > ul > li >a{
     text-decoration: none;
     color: black;
 }
 
+.selected{
+    color: #D5AC5B;
+    font-size: 1.3rem;
+}
 footer{
-    width: 100vw;
+    width: 99%;
     height: 300px;
-    background: black;
+    background:linear-gradient(to right, #333333, #483B27);
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .bloques{
-    width: 33%;
+    width: 30%;
     height: 55%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,13 +94,18 @@ footer{
 
 .redes > i{
     font-size: 3rem;
-    padding: 0 .4em;
+    padding: 0.4em;
 }
 
 .linea1{
     background-color: white;
     height: 45%;
-    width: 0.1rem;
+    width: 2px;
+}
+.linea12{
+    background-color: white;
+    height: 45%;
+    width: 2px;
 }
 
 .compra{
@@ -136,7 +146,7 @@ button{
 }
 button i{
     transition-property: all;
-    transition-duration: 100ms;   
+    transition-duration: 100ms;  
 }
 button:hover i{
     color: #D5AC5B;
@@ -151,4 +161,144 @@ a:hover{
     text-decoration: underline;
     text-decoration-color: #D5AC5B;
     font-size: 1.3rem;
+}
+
+.container{
+    width: 100vw;
+}
+
+.panel {
+    background-color: #D5AC5B;
+    width: 17vw;
+    height: 35rem;
+    position: fixed;
+    right: 0;
+    display: none;
+    color: black;
+    font-family: 'Montaga', serif;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+
+  .micarito{
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-bottom: 2px solid #483B27;
+  }
+
+  .contenido{
+    width: 100%;
+    background-color: transparent;
+    height: 75%;
+    border-bottom: 2px solid #483B27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 1rem 1rem 1rem;
+     
+  }
+
+  .contenido-cont{
+    background-color: transparent;
+    width: 95%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #333333;
+    padding: 1rem 0;
+  }
+.contenido-cont-img{
+    background-color: transparent;
+    height: 100%;
+    width: 35%;
+}
+.cont-imagen{
+    width: 100%;
+    height: 100%;
+}
+.contenido-cont-text{
+    background-color: transparent;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenido-cont-text > h3{
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 0.7rem;
+    
+}
+
+.contenido-cont-text > h4{
+    margin: 0;
+    font-size: 1,3rem;
+    font-weight: lighter;
+    font-family: 'Noto Sans Mono', monospace;
+    margin-left: 1.2rem;
+    font-weight: 100;
+}
+.precio-x{
+    height:15%;
+    width: 85%;
+  
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+.precio-x > h5{
+    margin: 0;
+    font-weight: 500;
+}
+.precio-x > i{
+    font-size: 1rem;
+}
+
+  .total{
+    background-color: #D5AC5B;
+    width: 100%;
+    height: 25%; 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+  .subtotal{
+    width: 95%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+  }
+
+.subtotal > h2{
+    font-weight: bold;
+}
+
+.buttonTramitar{
+    background-color: white;
+    color: #483B27;
+    border: 1px solid #333333;
+    width: 85%;
+    height: 3rem;
+    margin-left: 10%;
+    margin-top: 0.7rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 100;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function:ease-in-out;
+}
+
+
+.buttonTramitar:hover{
+    color: white;
+    background: linear-gradient(to right, #333333, #483B27);
 }
