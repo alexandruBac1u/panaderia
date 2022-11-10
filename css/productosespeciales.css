@@ -1,8 +1,61 @@
+body{
+    font-family: 'Montaga', serif;
+}
+
 section{
-    width: 100vw;
-    height: 500px;
-    margin-top: 6rem;
+    width: 45vw;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    border: 1px solid #483B27;
+    padding: 2rem;
+    width: 100%;
 }
 .tamaño{
     font-size: 1.3rem;
+}
+.confirm{
+    background-color: white;
+    color: #483B27;
+    border: 1px solid #333333;
+    width: 85%;
+    height: 3rem;
+    margin-left: 10%;
+    margin-top: 0.7rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 100;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function:ease-in-out;
+}
+
+.confirm:hover{
+    color: white;
+    background: linear-gradient(to right, #333333, #483B27);
+}
+
+p{
+    font-size: 2rem;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+input{
+    height: 1rem;
+    border: 1px solid #483B27;
+    padding: 0.4rem 0.2rem;
+    margin-top: 1rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 100;
 }

@@ -150,7 +150,63 @@
         </div>
         <div class="resumen-parte2">
           <h2>Total (impuestos incluidos): 98,99 € </h2>
+        </div>
+        <div class="metodo-pago">
+        <form action="#">
+         <div class="contPay">
+          <p><button class="MetPag MetSelect">Tarjeta</button><button class="MetPag">Paypal</button></p>
+          <h2>Pago seguro por tarjeta de crédito o débito</h2>
+         
+            <p><label for="TitTar">
+              Titular de tarjeta <br/>
+            </label>
+            <input type="text" name="TitTar" id="TitTar"></p>
+            <p><label for="NumTar">
+              Numero de tarjeta <br/>
+            </label>
+            <input type="text" name="NumTar" id="NumTar" placeholder="XXXX XXXX XXXX XXXX">
+          </p>  
+          <p>
+            <label for="FechVen">
+              Fecha de caducidad <br/>
+            </label>
+            <input type="text" name="FechVen" id="FechVen" placeholder="XX / XX">
+          </p>
+          <p> <label for="CodSeg">
+            Codigo de seguridad<br/>
+          </label>
+          <input type="text" name="CodSeg" id="CodSeg"></p>
+          <p>
+            <input type="checkbox" name="Remember" id="Remember">
+            <label for="Remember">¿Recordar tarjeta para futuras compras?</label></p>
+
+         </div>
+          <div class="contFacturacion">
+            <h2>Datos de Facturacion</h2>
+          <p><label for="Name">
+            Nombre: <br/>
+          </label>
+          <input type="text" name="Name" id="Name"></p>
+          <p><label for="SubName">
+            Apellido: <br/>
+          </label>
+          <input type="text" name="SubName" id="SubName"></p>
+          <p><label for="tel">
+            Telefono: <br/>
+          </label>
+          <input type="tel" name="tel" id="tel" placeholder="+34|XXX XX XX XX"></p>
+          <p><label for="email">
+            Correo: <br/>
+          </label>
+          <input type="email" name="email" id="email"></p>
+          <p><label for="CodPos">
+            Código postal: <br/>
+          </label>
+          <input type="number" name="CodPos" id="CodPos"></p>
+
           <button class="confirm">Confirmar y comprar</button>
+          </div>
+          </form>
         </div>
       </div>
       </div>

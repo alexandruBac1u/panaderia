@@ -1,5 +1,7 @@
+body{
+    font-family: 'Montaga', serif;;
+}
 section{
-
     width: 100%;
     margin-top: 6rem;
 }
@@ -17,8 +19,6 @@ section{
 
 .resumen{
     width: 25%;
-    height: 300px;
-    border: 1px solid #483B27;
     margin: 1rem 0;
 }
 
@@ -69,7 +69,7 @@ section{
 
 .resumen-parte1{
     padding: 0 1rem;
-    border-bottom: 1px solid black;
+    border: 1px solid #483B27;
 }
 .resumen-parte1 h3{
 font-size: 1.5rem;
@@ -81,7 +81,9 @@ color: #483b2793;
     }
 
 .resumen-parte2{
-    padding: 1.2rem;
+    padding: 0.5rem;
+    border: 1px solid #483B27;
+    border-top: 0;
 }
 .resumen-parte2 h2{
     margin-left: 10%;
@@ -93,7 +95,7 @@ color: #483b2793;
     border: 1px solid #333333;
     width: 85%;
     height: 3rem;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 0.7rem;
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 100;
@@ -106,4 +108,77 @@ color: #483b2793;
 .confirm:hover{
     color: white;
     background: linear-gradient(to right, #333333, #483B27);
+}
+
+.metodo-pago{
+    width: auto;
+    margin-top: 1rem;
+    border: 1px solid #483B27;
+}
+
+.metodo-pago input{
+    width: 55%;
+    height: 1rem;
+    border: 1px solid #483B27;
+    padding: 0.4rem 0.2rem;
+    margin-top: 1rem;
+}
+#Remember{
+    width: 3%;
+    height: 1rem;
+}
+#FechVen{
+    width: 12%;
+}
+#CodSeg{
+    width: 12%;
+}
+#CodPos{
+    width: 12%;
+}
+
+.metodo-pago p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.MetPag{
+    background-color: white;
+    color: #483B27;
+    border: 1px solid #333333;
+    width: 23%;
+    height: 3rem;
+    margin-right: 0.7rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 100;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function:ease-in-out;
+   
+}
+.MetPag:hover{
+    color: white;
+    background: linear-gradient(to right, #333333, #483B27);
+  
+}
+.MetSelect{
+    color: white;
+    background: linear-gradient(to right, #333333, #483B27);
+}
+
+.contPay{
+    border-bottom: 1px solid #483B27;
+    padding: 1rem;
+}
+.contFacturacion{
+    padding: 1rem;
+}
+
+.contFacturacion label{
+    margin-left: 5%;
+}
+
+
+.contFacturacion input{
+    margin-left: 5%;
 }
